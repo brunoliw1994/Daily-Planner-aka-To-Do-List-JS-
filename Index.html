@@ -1,0 +1,34 @@
+<!-- Daily Planner Index (Index.html) -->
+<!-- Created by Bruno Valente -->
+<!-- References:
+- MDN Web Docs: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+- W3Schools: https://www.w3schools.com/html/html_forms.asp
+- YouTube Tutorial: https://www.youtube.com/watch?v=G0jO8kUrg-I
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Planner</title>
+    <link rel="stylesheet" href="Styles.css"> <!-- I linked my external CSS file to style the page -->
+</head>
+<body>
+    <div class="wrapper"> <!-- I created this main container to wrap everything neatly -->
+        <header>
+            <h2>My Task Tracker</h2> <!-- I added this title to describe the purpose of my planner -->
+        </header>
+        <section class="input-area"> <!-- This section is where I allow users to input tasks -->
+            <form id="task-entry"> <!-- I created this form so users can add new tasks -->
+                <input type="text" id="task-text" placeholder="Add your task here..."> <!-- I added a text input field for users to type their tasks -->
+                <button type="submit">➕ Add Task</button> <!-- I included a button to submit tasks -->
+            </form>
+        </section>
+        <section class="tasks-section"> <!-- I set up this section to display the list of tasks -->
+            <ul id="task-container"></ul> <!-- I used an empty unordered list that will dynamically show tasks -->
+        </section>
+    </div>
+    <script src="Script.js"></script> <!-- I linked my external JavaScript file to handle functionality -->
+</body>
+</html>
