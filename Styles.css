@@ -1,0 +1,106 @@
+/* Daily Planner Styles (Styles.css) */
+/* Created by Bruno Valente */
+/* References:
+- MDN Web Docs: https://developer.mozilla.org/en-US/docs/Learn/CSS
+- W3Schools: https://www.w3schools.com/css/css_intro.asp
+- YouTube Tutorial: https://www.youtube.com/watch?v=yfoY53QXEnI
+*/
+
+/* I applied a gradient background and centered the content */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* I created a wrapper for the app with a structured layout */
+.wrapper {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+/* I styled the title for better reading */
+h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+/* I added spacing to the input section */
+.input-area {
+    margin-bottom: 15px;
+}
+
+/* I designed the task input field */
+#task-text {
+    padding: 12px;
+    width: 70%;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+}
+
+/* I styled the buttons with a modern appearance */
+button {
+    padding: 12px;
+    border: none;
+    background-color: #6a11cb;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #2575fc;
+}
+
+/* I formatted the task list */
+.tasks-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* I styled each task item */
+.task-item {
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* I marked completed tasks with a strikethrough effect */
+.finished-task span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* I applied styles for the 'Complete' button */
+.complete-button {
+    background: #28a745;
+    color: white;
+}
+
+.complete-button:hover {
+    background: #218838;
+}
+
+/* I applied styles for the 'Remove' button */
+.remove-button {
+    background: #dc3545;
+    color: white;
+}
+
+.remove-button:hover {
+    background: #c82333;
+}
