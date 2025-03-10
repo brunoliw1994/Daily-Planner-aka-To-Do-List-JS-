@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const taskElement = document.createElement('li');
         taskElement.classList.add('task-item');
 
-        // I add task text inside a span
+        // I add this part so the user is able to see the text they added 
         const textSpan = document.createElement('span');
         textSpan.textContent = taskContent;
 
