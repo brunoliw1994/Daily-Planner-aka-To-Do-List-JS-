@@ -9,7 +9,7 @@
 
 // Here, I'm ensuring that the DOM (which means Document Object Model) is completely loaded before running the script
 document.addEventListener('DOMContentLoaded', () => {
-    // I select elements with new variable names
+   
     const taskEntryForm = document.getElementById('task-entry');
     const taskInputField = document.getElementById('task-text');
     const taskContainer = document.getElementById('task-container');
