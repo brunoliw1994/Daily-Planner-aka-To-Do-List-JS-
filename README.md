@@ -4,7 +4,7 @@ I created this Daily Planner project to learn about web development, focusing on
 
 The goal was to practice **DOM manipulation, event handling, and CSS styling** while building a simple and useful tool.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/AenKXfPJVB4)
 
 # Development Environment
 
